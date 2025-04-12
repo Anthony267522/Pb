@@ -1,5 +1,3 @@
-
-
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -14,12 +12,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(10, 10, 10),  -- Preto para o fundo principal
-			Second = Color3.fromRGB(25, 25, 25),  -- Preto mais suave para a segunda camada
-			Stroke = Color3.fromRGB(180, 0, 0),  -- Vermelho vibrante para bordas
-			Divider = Color3.fromRGB(120, 0, 0),  -- Um vermelho mais suave para divisores
-			Text = Color3.fromRGB(255, 0, 0),  -- Vermelho brilhante para o texto principal
-			TextDark = Color3.fromRGB(200, 0, 0)  -- Vermelho mais escuro para textos secundários
+			Main = Color3.fromRGB(0, 0, 0),
+			Second = Color3.fromRGB(0, 0, 0),
+			Stroke = Color3.fromRGB(0, 0, 0),
+			Divider = Color3.fromRGB(255, 255, 255),
+			Text = Color3.fromRGB(0, 255, 255),
+			TextDark = Color3.fromRGB(0, 255, 255)
 		}
 	},
 	SelectedTheme = "Default",
